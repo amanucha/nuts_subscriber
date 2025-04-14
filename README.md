@@ -79,6 +79,13 @@ python3 -m unittest discover tests
 
 
 
+
+
+
+
+
+
+
 🐳 Docker Compose (Optional but Recommended)
 
 You can run everything using Docker Compose. This sets up PostgreSQL and runs your app with one command.
