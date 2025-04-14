@@ -6,7 +6,7 @@ class Database:
             dbname='nutsdb',
             user='nutsuser',
             password='nutspassword',
-            host='localhost',
+            host=os.environ.get('DB_HOST', 'localhost'),
             port=5432
         )
         self.cur = self.conn.cursor()
